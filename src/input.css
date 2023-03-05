@@ -11,10 +11,14 @@ h1{
     font-size: 67px;
 }
 
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h3{
     font-family: 'Dancing Script', cursive; 
     font-weight: 200;
-    font-size: 20px;
 
 }
 
@@ -41,4 +45,19 @@ img{
     opacity: 1;
     filter: brightness(85%);
     filter: grayscale(100%);
+}
+
+.span{
+    margin: 10px 20px;
+}
+
+.download-links{
+   
+        background-color: #000;
+        color: #fff;
+        justify-content: flex-start;
+        width: 8%;
+        padding: 5px 3px;
+        margin-left: 5%;
+    
 }

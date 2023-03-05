@@ -6,7 +6,7 @@ body{
     background-color: rgb(104, 79, 83);
 }
 
-h1{
+#header-title{
     font-family: 'Dancing Script', cursive;
     font-size: 67px;
 }
@@ -14,6 +14,12 @@ h1{
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h2::selection{
+    background-color: #000;
+    color: #fff;
 }
 
 h3{
@@ -37,7 +43,7 @@ li{
 
 
 
-img{
+#myimage{
     display: block;
     margin-right: auto;
     margin-left: auto;
@@ -60,4 +66,44 @@ img{
         padding: 5px 3px;
         margin-left: 5%;
     
+}
+
+#title{
+  position: relative;
+  left: -20em;
+    
+}
+
+#sub-title{
+    position: relative;
+    left: -3em;
+}
+
+
+/* Styling for the resume' page  begins here  */
+
+.photos{
+    width: 200px;
+   display: inline-block;
+   aspect-ratio: 3/2;
+   margin: 30px 30px;
+   object-fit: contain;
+   color: #fff;
+}
+
+
+#tools-container{
+    background-color: #000;
+    filter: grayscale(85%);
+}
+
+
+.list{
+    list-style-type: disc;
+    text-align: center;
+  list-style: lower-alpha;
+}
+
+#text{
+    font-style: italic;
 }

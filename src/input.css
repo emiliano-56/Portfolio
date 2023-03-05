@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/*Index.html styling begins here.....    */
 body{
     background-color: rgb(104, 79, 83);
 }
@@ -80,6 +81,10 @@ li{
 }
 
 
+
+
+
+
 /* Styling for the resume' page  begins here  */
 
 .photos{
@@ -106,4 +111,15 @@ li{
 
 #text{
     font-style: italic;
+}
+
+
+
+/* Project page styling begins here.....   */
+.project-containers{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit: contain;
 }

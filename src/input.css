@@ -2,3 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+    background-color: rgb(104, 79, 83);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 67px;
+}
+
+h3{
+    font-family: 'Dancing Script', cursive; 
+    font-weight: 200;
+    font-size: 20px;
+
+}
+
+li{
+ 
+    font-family: 'Dancing Script', cursive;  
+    font-size: 25px; 
+}
+
+.dark-mode{
+    background-color: #374151;
+    color: #000;
+}
+
+
+
+
+
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 50%;
+    opacity: 1;
+    filter: brightness(85%);
+    filter: grayscale(100%);
+}

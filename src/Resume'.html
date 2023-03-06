@@ -21,22 +21,25 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
     <link rel="stylesheet" href="/src/input.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/src/resume.css">
   </head>
   <body>
     <div class="animate__animated animate__fadeIn">
     <header class="w-full h-16  drop-shadow-lg">
         <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
             <!-- Logo Here -->
-            <a class="flex items-center py-4 px-2" href="/" id="sub-title"><span>
-                <img src="/images/image.gif" alt="" class="h-8 w-8 mr-2" width ="35">
-            </span></a>
+            <div id="title" >
+                <a href="#" class="flex items-center py-4 px-2">
+                    <img src="/images/image.gif" alt="Logo" class="h-8 w-8 mr-2" width="35" />
+                    <span class="font-semibold text-yellow-400 text-lg"
+                        >Emili<span class="text-white">ano</span></span
+                    >
+                </a>
+            </div>
+            
 
-
-
-            <a class="text-yellow-400 text-xl font-bold italic" href="/" id="title">EMILI<span
-                    class="text-white">ANO</span></a>
                     <a class="text-yellow-400 text-xl font-bold italic" href="#" onclick="myFunction()">
-                        <i class="fa-sharp fa-solid fa-moon"></i>   
+                        <i class="fa-sharp fa-solid fa-moon" id="switch"  ></i>   
                     </a>
     
             <!-- Menu links here -->
@@ -49,17 +52,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 </li>
 
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-solid fa-house"></i> Home
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/index.html"><i class="fa-solid fa-house"></i> Home
 
                     </a>
                 </li>
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-sharp fa-solid fa-file"></i> Projects
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/projects.html"><i class="fa-sharp fa-solid fa-file"></i> Projects
 
                     </a>
                 </li>
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-regular fa-user"></i> Resume'
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/Resume'.html"><i class="fa-regular fa-user"></i> Resume'
 
                     </a>
                 </li>
@@ -67,7 +70,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
             <!-- This is used to open the menu on mobile devices -->
             <div class="flex items-center md:hidden">
-                <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
+                <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300" id="toggle"
                     onclick="toggleMenu()">
                     &#9776;
                 </button>
@@ -77,7 +80,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
     <main>
         <h1 class="mt-40  text-center" id="header-title">My Web Tools:</h1>
-        <h2 class="-mb-14 text-xl text-center italic"> 
+        <h2 class="-mb-14 text-xl text-center italic" id ="title-text"> 
         Here are some of my web advance tools that i use basically for web creations, complex-web app etc...    
         </h2>
  
@@ -104,7 +107,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 <!--Other Tech I use-->
 
-<h1 class="mt-40  text-left" id="header-title">Other Tech I also Use:</h1>
+<h1 class="mt-40  text-left" id="header-task">Other Tech I also Use:</h1>
 <!--Web tools logos-->
 <div id="tools-container" class="ml-5">
     <span class="ml-7"> <img src="/images/hub.png" alt="" class="photos" width="200" id="js"></span>
@@ -124,12 +127,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <br><br><br>
 
 <div class="download-links">
-    <a href="/src/Resume'.html">V   isit My Resume'</a>
+    <a href="/src/Resume'.html">Visit My Resume'</a>
 </div>  
 
 
 <p class="text-center text-lg">Let's Connect:</p>
-<a href="/" class="flex justify-center">emiliano715x@gmail.com</a>
+<a href="mailto: emiliano715@gmail.com" class="flex justify-center">emiliano715x@gmail.com</a>
 <br><br><br>
     <!-- Javascript Code -->
     <script>

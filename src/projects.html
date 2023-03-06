@@ -27,16 +27,19 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     <header class="w-full h-16  drop-shadow-lg">
         <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
             <!-- Logo Here -->
-            <a class="flex items-center py-4 px-2" href="/" id="sub-title"><span>
-                <img src="/images/image.gif" alt="" class="h-8 w-8 mr-2" width ="35">
-            </span></a>
+            <div id="title" >
+                <a href="#" class="flex items-center py-4 px-2">
+                    <img src="/images/image.gif" alt="Logo" class="h-8 w-8 mr-2" width="35" />
+                    <span class="font-semibold text-yellow-400 text-lg"
+                        >Emili<span class="text-white">ano</span></span
+                    >
+                </a>
+            </div>
 
 
-
-            <a class="text-yellow-400 text-xl font-bold italic" href="/" id="title">EMILI<span
-                    class="text-white">ANO</span></a>
+        
                     <a class="text-yellow-400 text-xl font-bold italic" href="#" onclick="myFunction()">
-                        <i class="fa-sharp fa-solid fa-moon"></i>   
+                        <i class="fa-sharp fa-solid fa-moon" id="switch"  ></i>   
                     </a>
     
             <!-- Menu links here -->
@@ -49,17 +52,17 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 </li>
 
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-solid fa-house"></i> Home
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/index.html"><i class="fa-solid fa-house"></i> Home
 
                     </a>
                 </li>
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-sharp fa-solid fa-file"></i> Projects
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/projects.html"><i class="fa-sharp fa-solid fa-file"></i> Projects
 
                     </a>
                 </li>
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-regular fa-user"></i> Resume'
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/Resume'.html"><i class="fa-regular fa-user"></i> Resume'
 
                     </a>
                 </li>
@@ -67,7 +70,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
             <!-- This is used to open the menu on mobile devices -->
             <div class="flex items-center md:hidden">
-                <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
+                <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300" id="toggle"
                     onclick="toggleMenu()">
                     &#9776;
                 </button>
@@ -91,14 +94,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         <h3 class="mt-4 text-4xl text-center">Let's Connects:</h3>
      <div class="flex justify-center" id="social-media">
         <span class="span"> <a href="/"></a><i class="fa-brands fa-square-facebook"></i></span>
-        <span class="span"> <a href="/"> <i class="fa-regular fa-envelope "></i> </a></span> 
-        <span class="span"> <a href="/"> <i class="fa-brands fa-whatsapp"></i></a></span> 
+        <span class="span"> <a href="mailto: emiliano715x@gmail.com"> <i class="fa-regular fa-envelope "></i> </a></span> 
+        <span class="span"> <a href="/"> <i class="fa-brands fa-linkedin"></i> </i></a></span> 
      </div>
        
 
 <!--Download resume' links-->     
 <div class="download-links">
-    <a href="/">Visit My Resume'</a>
+    <a href="/src/Resume'.html">Visit My Resume'</a>
 </div>
 <br><br><br>
 

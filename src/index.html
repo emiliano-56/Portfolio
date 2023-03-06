@@ -20,23 +20,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 />
     <link rel="stylesheet" href="/src/input.css" />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="animate__animated animate__fadeIn">
-    <header class="w-full h-16  drop-shadow-lg">
+    <header class="w-full h-16  drop-shadow-lg"    >
         <div class="container px-4 md:px-0 h-full mx-auto flex justify-between items-center">
-            <!-- Logo Here -->
+            <!-- Logo Here 
+            
             <a class="flex items-center py-4 px-2" href="/" id="sub-title"><span>
                 <img src="/images/image.gif" alt="" class="h-8 w-8 mr-2" width ="35">
             </span></a>
+        <a class="text-yellow-400 text-xl font-bold italic" href="/" id="title">
+<span class="text-white">
+    <img src="/images/image.gif" alt="" class="h-8 w-8 mr-2" width ="35">
+</span> 
+
+</a>  -->
+
+
+<div id="title" >
+    <a href="#" class="flex items-center py-4 px-2">
+        <img src="/images/image.gif" alt="Logo" class="h-8 w-8 mr-2" width="35" />
+        <span class="font-semibold text-yellow-400 text-lg"
+            >Emili<span class="text-white">ano</span></span
+        >
+    </a>
+</div>
 
 
 
-            <a class="text-yellow-400 text-xl font-bold italic" href="/" id="title">EMILI<span
-                    class="text-white">ANO</span></a>
                     <a class="text-yellow-400 text-xl font-bold italic" href="#" onclick="myFunction()">
-                        <i class="fa-sharp fa-solid fa-moon"></i>   
+                        <i class="fa-sharp fa-solid fa-moon" id="switch"></i>   
                     </a>
     
             <!-- Menu links here -->
@@ -44,22 +58,22 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 md:relative md:flex md:p-0 md:bg-transparent md:flex-row md:space-x-6">
 
                 <li class="md:hidden z-90 fixed top-4 right-6">
-                    <a href="javascript:void(0)" class="text-right text-black"
+                    <a href="javascript:void(0)" class="text-right text-black" 
                         onclick="toggleMenu()">&times;</a>
                 </li>
 
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-solid fa-house"></i> Home
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/index.html"><i class="fa-solid fa-house"></i> Home
 
                     </a>
                 </li>
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-sharp fa-solid fa-file"></i> Projects
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/projects.html"><i class="fa-sharp fa-solid fa-file"></i> Projects
 
                     </a>
                 </li>
                 <li>
-                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="#"><i class="fa-regular fa-user"></i> Resume'
+                    <a class="text-black opacity-70 hover:opacity-100 duration-300" href="/src/Resume'.html"><i class="fa-regular fa-user"></i> Resume'
 
                     </a>
                 </li>
@@ -67,7 +81,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
             <!-- This is used to open the menu on mobile devices -->
             <div class="flex items-center md:hidden">
-                <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300"
+                <button class="text-white text-4xl font-bold opacity-70 hover:opacity-100 duration-300" id="toggle"
                     onclick="toggleMenu()">
                     &#9776;
                 </button>
@@ -80,7 +94,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 <!--Body text begins here-->
     <main>
         <h1 class="mt-40  text-center" id="header-title">Hello</h1>
-        <h2 class="mt-2 text-xl text-center italic"> I'm Emiliano, Front-End Developer from Lagos, <br>
+        <h2 class="mt-2 text-xl text-center italic" id="hello-text"> I'm Emiliano, Front-End Developer from Lagos, <br>
             Nigeria with a rock-solid experience in building websites, complex-web App,
             using high-advance tools like tailwind css, sass, React Js etc...      </h2>
             <div class="image-background">
@@ -89,22 +103,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
         <h3 class="mt-4 text-4xl text-center">Let's Connects:</h3>
      <div class="flex justify-center" id="social-media">
-        <span class="span"> <a href="/"></a><i class="fa-brands fa-square-facebook"></i></span>
-        <span class="span"> <a href="/"> <i class="fa-regular fa-envelope "></i> </a></span> 
-        <span class="span"> <a href="/"> <i class="fa-brands fa-whatsapp"></i></a></span> 
+        <span class="span"> <a href="/">    <i class="fa-brands fa-square-facebook"></i>  </a></span>
+        <span class="span"> <a href="mailto:emiliano715x@gmail.com"> <i class="fa-regular fa-envelope "></i> </a></span> 
+        <span class="span"> <a href="/"> <i class="fa-brands fa-linkedin"></i>  </a></span> 
      </div>
-     
+    
+  
  <!--Resume' downloak links-->    
 
 <div class="download-links">
-    <a href="/">Vist My Resume'</a>
+    <a href="/src/Resume'.html">Vist My Resume'</a>
 </div>
 <br><br><br>
-
-
-
-
-
     <!-- Javascript Code -->
     <script>
         var menu = document.getElementById('menu');
@@ -126,13 +136,12 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
 
 
-
 <!--Footer texts-->
 <div class="footer-text">
    <span class="flex justify-center text-xs">Lagos, Nigeria</span>
    <span><p>&copy; 2023</p>
 </div>
 
-</div>
+</div>  
   </body>
 </html>

@@ -3,14 +3,29 @@
 @tailwind utilities;
 
 /*Index.html styling begins here.....    */
+
+
+
+
+
+
 body{
     background-color: rgb(104, 79, 83);
 }
 
 #header-title{
     font-family: 'Dancing Script', cursive;
-    font-size: 67px;
+    font-size: 60px;
 }
+
+#header-task{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+
+
+
 
 
 h2{
@@ -36,7 +51,7 @@ li{
 }
 
 .dark-mode{
-    background-color: #374151;
+   background-color:    #1e293b;
     color: #000;
 }
 
@@ -68,6 +83,7 @@ li{
         margin-left: 5%;
     
 }
+/*   
 
 #title{
   position: relative;
@@ -75,10 +91,18 @@ li{
     
 }
 
+*/
+
+
+/*    
 #sub-title{
     position: relative;
     left: -3em;
 }
+
+
+*/
+
 
 
 
@@ -122,4 +146,113 @@ li{
     margin-right: auto;
     width: 50%;
     object-fit: contain;
+}
+
+
+/* Media query    */
+
+@media(max-width: 760px){
+    #title{
+    position: relative;
+   left: -1em;
+      }
+   #switch{
+    position: relative;
+    left: -0.9em;
+    font-size: 17px;
+   top: 0.1em;
+   }
+
+#toggle{
+    font-size: 17px;
+}
+
+#hello-text{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#myimage{
+    width: 170px;
+}
+
+#header-title{
+    font-size: 48px;
+}
+
+
+
+
+
+.project-containers{
+    width: 53%;
+}
+
+
+
+.download-links{
+   margin-top: 15%;
+     width: 45%;
+     padding: 2px 2px;
+}
+
+.photos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#text{
+    font-size: 18px;
+}
+
+
+
+}
+
+
+@media(max-width: 250px){
+
+    #header-title{
+        font-size: 35px;
+    }
+
+#title-text{
+    font-size: 18px;
+}
+
+#tools-container{
+    width: 100%;
+}
+}
+
+
+@media(max-width: 372px){
+    #header-task{
+       
+        font-size: 35px;
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width: 761px){
+    .download-links{
+   
+        width: 17%;
+        padding: 3px 3px;
+
+
+   }
+
 }

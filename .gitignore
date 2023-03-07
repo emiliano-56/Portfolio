@@ -7,3 +7,7 @@ package-lock.json
 tailwind.conf.js
 
 /dist
+
+index.html
+
+_redirects
